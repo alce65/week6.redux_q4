@@ -1,0 +1,9 @@
+.task-card {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+
+  [role='button'] {
+    cursor: pointer;
+  }
+}

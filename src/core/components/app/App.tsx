@@ -5,6 +5,7 @@ import { Counter } from '../../../features/counter/components/counter/Counter';
 import { Login } from '../../../features/users/components/login/login';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store/store';
+import { List } from '../../../features/notes/components/list/list';
 
 function App() {
   const userState = useSelector((state: RootState) => state.user);
@@ -59,6 +60,7 @@ function App() {
         </span>
       </header>
       <Login></Login>
+      <List></List>
     </div>
   );
 }
